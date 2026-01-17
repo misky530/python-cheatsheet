@@ -93,7 +93,7 @@ def main():
     #     list_c.append(list_a[i] * list_b[i])
 
     # improve
-    list_c = [a*b for a,b in zip(list_a, list_b)]
+    list_c = [a * b for a, b in zip(list_a, list_b)]
     print(list_c)
 
     # 练习 2 对列表 [5,2,9,1]： 生成一个新列表，元素都加 10  再按降序排序
@@ -102,7 +102,7 @@ def main():
     # list_res = []
     # for item in list_re:
     #     list_res.append(item + 10)
-    list_res=[ x+10 for x in list_a]
+    list_res = [x + 10 for x in list_a]
     list_res.sort(reverse=True)
 
     print('练习2：')
@@ -111,7 +111,19 @@ def main():
     #  练习3 把下面嵌套列表展平成一维： data = [[1], [2,3], [4,5,6]]
     data = [[1], [2, 3], [4, 5, 6]]
     flat = itertools.chain.from_iterable(data)
+    print('练习3：')
     print(list(flat))
+
+    # 练习4 给 [3, 100, 2] 做：每个元素 +10，再降序排序，输出应该是什么？
+    data = [3, 100, 2]
+    list_res = [x + 10 for x in data]
+    list_res.sort(reverse=True)
+    print('练习4：')
+    print(list_res)
+
+    list_res_inline = sorted([x + 10 for x in data], reverse=True)
+    print('练习4 inline：')
+    print(list_res_inline)
 
 
 if __name__ == "__main__":
