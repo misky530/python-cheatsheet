@@ -83,36 +83,29 @@ def main():
 
     print(flat)  # [1,2,3,4,5]
 
-    # 练习 1
-    #
-    # 把 [1,2,3] 和 [10,20,30] 逐元素相乘
-    #
-    # 练习 2
-    #
-    # 对列表 [5,2,9,1]：
-    #
-    # 生成一个新列表，元素都加 10
-    #
-    # 再按降序排序
-
     # 练习 1 把 [1,2,3] 和 [10,20,30] 逐元素相乘
     list_a = [1, 2, 3]
     list_b = [10, 20, 30]
-    list_c = []
-    for i in range(3):
-        # print(list_a[i])
-        # print(list_b[i])
-        list_c.append(list_a[i] * list_b[i])
+    # list_c = []
+    # for i in range(3):
+    #     # print(list_a[i])
+    #     # print(list_b[i])
+    #     list_c.append(list_a[i] * list_b[i])
 
+    # improve
+    list_c = [a*b for a,b in zip(list_a, list_b)]
     print(list_c)
 
     # 练习 2 对列表 [5,2,9,1]： 生成一个新列表，元素都加 10  再按降序排序
     list_a = [5, 2, 9, 1]
-    list_re = reversed(list_a)
-    list_res = []
-    for item in list_re:
-        list_res.append(item + 10)
 
+    # list_res = []
+    # for item in list_re:
+    #     list_res.append(item + 10)
+    list_res=[ x+10 for x in list_a]
+    list_res.sort(reverse=True)
+
+    print('练习2：')
     print(list(list_res))
 
     #  练习3 把下面嵌套列表展平成一维： data = [[1], [2,3], [4,5,6]]
