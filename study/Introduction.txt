@@ -1,0 +1,7 @@
+Hello, I am Anthony, and I am excited to have the opportunity to introduce myself. I have 15 years of work experience in IT operations, infrastructure automation, and DevOps engineering. Throughout my career, I have mastered many IT skills like Kubernetes, Docker, Ansible, Terraform, Jenkins, Python, PostgreSQL, Kafka, AWS cloud platform, and monitoring solutions including Prometheus, Grafana, and ELK Stack.
+
+Currently, I serve as a Senior Operations Engineer at Zhuhai meta, where I manage K3s clusters with over 100 containers and have built an IoT data processing platform handling 5 million messages daily. I have 13 years of experience working on MTR ODC projects in Hong Kong, which has given me valuable expertise in cross-border team collaboration and CMMI compliance processes.
+
+My recent achievements include implementing infrastructure automation with Ansible and Terraform, establishing GitOps workflows with ArgoCD for streamlined deployments, and building robust CI/CD pipelines that improved deployment efficiency.  Additionally, I am actively learning to develop custom DevOps Skills using the Claude Skills framework to enhance AI-assisted operations and automate complex workflow processes.
+
+I am excited about the opportunity to contribute to your team and bring my passion and expertise in DevOps automation, cloud-native technologies, and infrastructure optimization to help achieve your goals. Thank you for considering my application.
